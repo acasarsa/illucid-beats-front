@@ -2,8 +2,8 @@
 // make input field 
 // fetch post to users
 
-// const url = 'http://localhost:3000/api/v1'
-const url = 'https://illucid-beats-api.herokuapp.com'
+const url = 'http://localhost:3000/api/v1'
+// const url = 'https://illucid-beats-api.herokuapp.com'
 
 
 function loginOverlaySetup() {
@@ -95,7 +95,7 @@ function loginSetup() {
     /////////////////////
       const welcomeUser = document.querySelector('.left-container')
       welcomeUser.dataset.userId = user.id
-
+      console.log('user', user)
       const p = document.createElement('p')
 
       p.innerHTML = `

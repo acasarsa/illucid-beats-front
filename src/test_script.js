@@ -216,26 +216,6 @@ function togglePlay(sound) {
 // //==================================================================================
 
 
-// document.addEventListener("click", (event) => {
-//         if (event.target === img[0]) {
-//             togglePlay(audio[0])   
-//         }
-//         if (event.target === img[1]) {
-//             togglePlay(audio[1])   
-//         }
-//         if (event.target === img[2]) {
-//             togglePlay(audio[2])   
-//         }
-//         if (event.target === img[3]) {
-//             togglePlay(audio[3])   
-//         }
-//         if (event.target === img[4]) {
-//             togglePlay(audio[4])   
-//         }
-//         if (event.target === img[5]) {
-//             togglePlay(audio[5])   
-//         }
-//     })
 
 function sliderMovesVolume () {
     // audio_collection = document.querySelectorAll('audio')
@@ -321,7 +301,7 @@ function volume() {
 function playPause(){
 
     let listen = document.querySelector(".play-controls")
-
+    
     listen.addEventListener("click",function(event){
         let audio = document.getElementsByTagName("audio") 
 
