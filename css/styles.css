@@ -53,7 +53,7 @@ html, body {
 margin: 0;
 height: 120%;
 
-    background: linear-gradient(var(--color-sky-light), var(--color-sky-dark));
+    /* background: linear-gradient(var(--color-sky-light), var( #400c74)); */
 }
 
 .body-night {
@@ -61,7 +61,8 @@ height: 120%;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(4, 0, 5);
-    background: linear-gradient(var(--color-night-blue), var(--color-sky-yellow));
+    /* background: linear-gradient(var(--color-night-blue), var(--color-sky-yellow)); */
+    background: linear-gradient(var(--color-sky-yellow), var(--color-night-blue));
 }
 
 
@@ -70,7 +71,8 @@ height: 120%;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    background: linear-gradient(var(--color-day-orange), var(--color-sky-yellow));
+    /* background: linear-gradient(var(--color-day-orange), var(--color-flame-yellow)); */
+    background: linear-gradient(var(--color-peach), var(--color-day-orange));
 }
 
 
@@ -82,6 +84,7 @@ height: 120%;
     --color-rock-dark: #2F484F;
     --color-rock-light: #917472;
     --color-flame-yellow: rgb(221, 27, 27);
+    --color-peach: rgb(249, 97, 97);
     --color-flame-orange: rgb(223, 177, 79);
 
     /* --color-day-orange: #FDA263;
@@ -91,10 +94,10 @@ height: 120%;
     /* --color-day-orange: #FDA263;
     --color-sky-yellow: rgb(18, 23, 53);
     --color-night-blue: #515fbb; */
-       
+    
 --color-day-orange: #ffff82;
---color-sky-yellow: #02938b;
---color-night-blue: #002b38;
+--color-sky-yellow: #3f6bcb;
+--color-night-blue: #2d0808;
 
 }
 
