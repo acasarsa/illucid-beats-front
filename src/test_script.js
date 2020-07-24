@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
       //notes: !!!!! make  a funcition that is for all audio containers get audio vol / get slider vol / where those audioKey match  set audio.volume = slider.value !!!!!
     
 
-
+    
 
 })
 
@@ -301,7 +301,7 @@ function volume() {
 function playPause(){
 
     let listen = document.querySelector(".play-controls")
-    
+   
     listen.addEventListener("click",function(event){
         let audio = document.getElementsByTagName("audio") 
 
