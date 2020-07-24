@@ -76,6 +76,11 @@ function loginSetup() {
 
     login_form.reset()
 
+    let audio = document.getElementsByTagName("audio")
+    Array.from(audio).forEach(function (song) {
+      song.play()
+
+    })
     const options = {
       method: 'POST',
       body: JSON.stringify(new_username),
