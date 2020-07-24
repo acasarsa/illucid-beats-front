@@ -224,7 +224,6 @@ button {
 .title {
     position: absolute;
     top: 35px;
-
     text-align: center;
 
 }
@@ -236,7 +235,7 @@ button {
     position: absolute;
     margin: 0;
     top: 200px;
-    left: 42%;
+    left: 44%;
 }
 
 .inner-controls {
@@ -287,7 +286,7 @@ button {
 
 .sound-list{
     position:absolute; 
-    left:300px;
-  max-width: 900px;
+    left:30%;
+    max-width: 900px;
 }
 
