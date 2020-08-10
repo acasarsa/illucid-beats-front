@@ -8,3 +8,5 @@ sound files from https://www.soundjay.com/
 
 backend repo can be found here:
 https://github.com/acasarsa/illucid_beats_back_end
+
+project demo: https://www.youtube.com/watch?v=EyN9_dq9Fec
